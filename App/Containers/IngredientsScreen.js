@@ -163,7 +163,7 @@ class IngredientsScreen extends Component {
           renderItem={this.renderItem}
           ListEmptyComponent={() =>
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-              <Text>Bahan masakan tidak ditemukan</Text>
+              <Text style={{fontFamily: Fonts.type.base, fontSize: Fonts.size.h6, color: Colors.orange}}>Bahan masakan tidak ditemukan</Text>
             </View>
           }
           onEndReachedThreshold={0.1}

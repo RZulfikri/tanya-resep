@@ -10,14 +10,14 @@ export default class LaunchScreen extends Component {
   render () {
     return (
       <View style={styles.mainContainer}>
-       <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 1}} style={{flex: 1}} colors={[Colors.lightOrange, Colors.orange, Colors.darkOrange]}>
+       <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 1}} style={{flex: 1}} colors={[Colors.lightOrange, Colors.orange]}>
           <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
             <Image source={Images.logoChef} style={{width: 225, height: 225}} />
           </View>
           <View>
             <TouchableOpacity onPress={() => this.props.navigation.navigate('MainScreen')}>
               <View style={{paddingHorizontal: 40, backgroundColor: Colors.snow, paddingVertical: 10, marginHorizontal: 40, borderRadius: 33, elevation: 10 }}>
-                <Text style={{textAlign: 'center', fontSize: 20, color: Colors.darkOrange, fontFamily: Fonts.type.bold}}> TANYA RESEP </Text>
+                <Text style={{textAlign: 'center', fontSize: 20, color: Colors.orange, fontFamily: Fonts.type.bold}}> TANYA RESEP </Text>
               </View>
             </TouchableOpacity>
           </View>
