@@ -2,6 +2,14 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
+* Server/backend implementation of this project in this repo https://github.com/RZulfikri/tanya-resep-server
+
+# Screenshoot
+<img src="https://i.imgur.com/9K8yCXm.png" width="200">
+<img src="https://i.imgur.com/emvHqoo.png" width="200">
+<img src="https://i.imgur.com/cfCJXj6.png" width="200">
+<img src="https://i.imgur.com/e4f6qWm.png" width="200">
+<img src="https://i.imgur.com/KziphgA.png" width="200">
 
 ## :arrow_up: How to Setup
 
