@@ -6,16 +6,17 @@ import StartupActions from '../Redux/StartupRedux'
 
 // Styles
 import styles from './Styles/RootContainerStyles'
+import { Colors } from '../Themes';
 
 class RootContainer extends Component {
   componentDidMount () {
-    this.props.startup()
+    // this.props.startup()
   }
 
   render () {
     return (
       <View style={styles.applicationView}>
-        <StatusBar barStyle='light-content' />
+        <StatusBar hidden/>
         <ReduxNavigation />
       </View>
     )
